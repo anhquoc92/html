@@ -1,0 +1,140 @@
+{
+    "data": [
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 25.0,
+            "tokenId": 1,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/6001.png",
+            "classHero": "C",
+            "colorHero": "orange"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 81.0,
+            "tokenId": 2,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/19000.png",
+            "classHero": "C",
+            "colorHero": "purple"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 61.0,
+            "tokenId": 3,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/22001.png",
+            "classHero": "B",
+            "colorHero": "green"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 15.0,
+            "tokenId": 4,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/12002.png",
+            "classHero": "C",
+            "colorHero": "orange"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 78.0,
+            "tokenId": 5,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/5002.png",
+            "classHero": "S",
+            "colorHero": "purple"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 51.0,
+            "tokenId": 6,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/8001.png",
+            "classHero": "A",
+            "colorHero": "green"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 81.0,
+            "tokenId": 7,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/22000.png",
+            "classHero": "D",
+            "colorHero": "orange"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 91.0,
+            "tokenId": 8,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/24000.png",
+            "classHero": "C",
+            "colorHero": "purple"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 75.0,
+            "tokenId": 9,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/10000.png",
+            "classHero": "B",
+            "colorHero": "green"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 68.0,
+            "tokenId": 10,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/12000.png",
+            "classHero": "C",
+            "colorHero": "orange"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 12.0,
+            "tokenId": 11,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/25000.png",
+            "classHero": "D",
+            "colorHero": "purple"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 41.0,
+            "tokenId": 12,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/13002.png",
+            "classHero": "C",
+            "colorHero": "orange"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 7.0,
+            "tokenId": 13,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/14002.png",
+            "classHero": "S",
+            "colorHero": "green"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 45.0,
+            "tokenId": 14,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/16000.png",
+            "classHero": "D",
+            "colorHero": "orange"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 46.0,
+            "tokenId": 15,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/11000.png",
+            "classHero": "D",
+            "colorHero": "green"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 62.0,
+            "tokenId": 16,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/18000.png",
+            "classHero": "SS",
+            "colorHero": "purple"
+        },
+        {
+            "dateTime": "2022-08-18 12:08:05",
+            "price": 23.0,
+            "tokenId": 17,
+            "imgNFT": "https://assets.thetanarena.com/skin/full/11001.png",
+            "classHero": "A",
+            "colorHero": "orange"
+        }
+    ]
+}

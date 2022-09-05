@@ -1,0 +1,141 @@
+.filter__tittle{
+    display: flex;
+    flex-direction: row;
+    padding: 1.25em 1.25em;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter__text{
+    color: white;
+    font-weight: bold;
+}
+
+.filter__tittle__{
+    height: 0.1px;
+    width: 100%;
+    background: white;
+}
+
+.filter__clear button{
+    background: none;
+    color:#1ff33cdf;
+    border: none;
+}
+
+.filter__clear button:hover{
+    transform: scale(1.05)
+}
+
+.side__bar{
+    display: flex;
+    flex-direction: column;
+}
+.side__bar__a{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.filter__detail{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.filter__f1{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1.25em;
+    border-bottom: 1px solid white;
+}
+.filter__f2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.filter__f2__list{
+    /* opacity: 0; */
+    /* overflow: hidden; */
+    color: white;
+    /* height: 0; */
+    /* margin-top: 0; */
+}
+
+.filter__f2__list_group, .filter__f2__list_group_class, .filter__f2__list_group_color{
+    display: flex;
+    flex-direction: column;
+}
+
+.f2__filter__class{
+    font-weight: bold;
+}
+
+.f2__list_element{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.3em;
+    align-items: center;
+    cursor: pointer;
+}
+
+.element__box{
+    margin-right: 0.5em;
+    width: 1em;
+    height: 1em;
+    border: 0.0625em solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element__box :hover{
+    cursor: pointer;
+}   
+
+.card__color__filter{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.card__color--green{
+    background: #d8fd04;
+}
+.card__color--orange{
+    background: orange;
+}
+.card__color--purple{
+    background: #f107f1;
+}
+
+.filter__f2__range{
+    margin-top: 0.5em;
+    font-weight: bold;
+    display: flex;
+}
+
+.filter__by__price{
+    display: flex;
+    align-items: center;
+}
+
+.input_price{
+    padding: 0.5em;
+    box-sizing: border-box;
+    border-radius: 0.25em;
+    font-size: 1em;
+    color: inherit;
+    min-width: 6em;
+    border: 1px solid transparent;
+    width: 20%;
+}
+
+.f2__list_element_1{
+    width: 210px;
+    position: relative;
+    padding-top: 0.3em;
+    font-size: large;
+}

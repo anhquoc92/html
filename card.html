@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE-edge">
+    <meta name="viewport" content="width=decive-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/image/logo_quano6.png" type="image/x-icon">
+    <title>Quano6_NFT</title>\
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/side__bar.css">
+</head>
+
+<body>
+    <div class=" container">
+        <div class="header">
+            <div class="header__left">
+                <div class="logo__project">
+                    <img height="100%" src="/assets/image/logo_quano6.png" alt="">
+                </div>
+            </div>
+            <div class="header__mid">
+                <div class="name__header__title">
+                    <span>MarketPlace</span>
+                </div>
+                <div class="name__header__title">
+                    <span>SpecialEvent</span>
+                </div>
+                <div class="name__header__title">
+                    <span>OurServices</span>
+                </div>
+                <div class="name__header__title">
+                    <span>WorkWithUs</span>
+                </div>
+            </div>
+            <div class="header__right">
+                <button class="wallet">
+                    <span>Connect Wallet</span>
+                </button>
+            </div>
+            <!-- <div class="header__design"></div> -->
+        </div>
+        <div class="middle">
+            <div class="side__bar">
+                <div class="side__bar__a">
+                    <div class="filter__choose">
+                        <div class="filter__tittle">
+                            <span class="filter__text">FILTER</span>
+                            <div class="filter__clear">
+                                <button class="button__clear">Clear All</button>
+                            </div>
+                        </div>
+                        <div class="filter__tittle__"></div>
+                    </div>
+                    <div class="filter__detail">
+                        <div class="filter__f0">
+                            <div class="filter__f1">
+                                <div class="filter__f2" onclick="triggerNftCollection()">
+                                    <span class="f2__filter__class">Collection</span>
+                                    <div class="f2__filter__open">
+                                        <img class="icon__filter__down"
+                                            src="data:image/svg+xml,%3csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.2299 7.83789L9.99974 14.0681L3.76953 7.83789' fill='white' /%3e %3c/svg%3e">
+                                    </div>
+                                </div>
+                                <div class="filter__f2__list" id="filter__collection__1">
+                                    <div class="filter__f2__list_group" id="filter__collection__test">
+                                        <div class="f2__list_element_1" type-collection="all">
+                                            <input type="radio" id="collection1" class="checkbox1"
+                                                value="all" checked name="check_box_1" />
+                                            <label for="collection1"><span>All Collection</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter__f0">
+                            <div class="filter__f1">
+                                <div class="filter__f2" onclick="triggerNftClass()">
+                                    <span class="f2__filter__class">Class</span>
+                                    <div class="f2__filter__open">
+                                        <img class="icon__filter__down"
+                                            src="data:image/svg+xml,%3csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.2299 7.83789L9.99974 14.0681L3.76953 7.83789' fill='white' /%3e %3c/svg%3e">
+                                    </div>
+                                </div>
+                                <div class="filter__f2__list" id="filter__class__1">
+                                    <div class="filter__f2__list_group_class">
+                                        <div class="f2__list_element_1" data-filter="all">
+                                            <input type="radio" value="all" checked id="class_all" class="checkbox1"
+                                                name="checkbox_class" />
+                                            <label for="class_all"><span>All</span></label>
+                                        </div>
+                                        <div class="f2__list_element_1" data-filter="D">
+                                            <input type="radio" value="None" id="class_d" class="checkbox1"
+                                                name="checkbox_class" />
+                                            <label for="class_d"><span>D</span></label>
+                                        </div>
+                                        <div class="f2__list_element_1" data-filter="C">
+                                            <input type="radio" value="None" id="class_c" class="checkbox2"
+                                                name="checkbox_class" />
+                                            <label for="class_c"><span>C</span></label>
+                                        </div>
+                                        <div class="f2__list_element_1" data-filter="B">
+                                            <input type="radio" value="None" id="class_b" class="checkbox3"
+                                                name="checkbox_class" />
+                                            <label for="class_b"><span>B</span></label>
+                                        </div>
+                                        <div class="f2__list_element_1" data-filter="A">
+                                            <input type="radio" value="None" id="class_a" class="checkbox1"
+                                                name="checkbox_class" />
+                                            <label for="class_a"><span>A</span></label>
+                                        </div>
+                                        <div class="f2__list_element_1" data-filter="S">
+                                            <input type="radio" value="None" id="class_s" class="checkbox2"
+                                                name="checkbox_class" />
+                                            <label for="class_s"><span>S</span></label>
+                                        </div>
+                                        <div class="f2__list_element_1" data-filter="SS">
+                                            <input type="radio" value="None" id="class_ss" class="checkbox3"
+                                                name="checkbox_class" />
+                                            <label for="class_ss"><span>SS</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="filter__f2__list_group">
+                                        <div class="f2__list_element"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter__f0">
+                            <div class="filter__f1">
+                                <div class="filter__f2" onclick="triggerNftColor()">
+                                    <span class="f2__filter__class">Color</span>
+                                    <div class="f2__filter__open">
+                                        <img class="icon__filter__down"
+                                            src="data:image/svg+xml,%3csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.2299 7.83789L9.99974 14.0681L3.76953 7.83789' fill='white' /%3e %3c/svg%3e">
+                                    </div>
+                                </div>
+                                <div class="filter__f2__list" id="filter__color__1">
+                                    <div class="filter__f2__list_group">
+                                        <div class="f2__list_element_1">
+                                            <input type="radio" value="all" checked id="class_a" class="checkbox1"
+                                                name="checkbox_color" />
+                                            <label for="class_a">All</label>
+                                        </div>
+                                        <div class="f2__list_element">
+                                            <input type="radio" value="green" id="class_a" class="checkbox1"
+                                                name="checkbox_color" />
+                                            <span class="card__color--green card__color__filter"></span>
+                                            <label for="class_a"></label>
+                                        </div>
+                                        <div class="f2__list_element">
+                                            <input type="radio" value="orange" id="class_a" class="checkbox1"
+                                                name="checkbox_color" />
+                                            <span class="card__color--orange card__color__filter"></span>
+                                            <label for="class_a"></label>
+                                        </div>
+                                        <div class="f2__list_element">
+                                            <input type="radio" value="purple" id="class_a" class="checkbox1"
+                                                name="checkbox_color" />
+                                            <span class="card__color--purple card__color__filter"></span>
+                                            <label for="class_a"></label>
+                                        </div>
+                                    </div>
+                                    <div class="filter__f2__list_group">
+                                        <div class="f2__list_element"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter__f0">
+                            <div class="filter__f1">
+                                <div class="filter__f2" onclick="trggerNftPriceRange()">
+                                    <span class="f2__filter__class">Price Range (BUSD)</span>
+                                    <div class="f2__filter__open">
+                                        <img class="icon__filter__down"
+                                            src="data:image/svg+xml,%3csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.2299 7.83789L9.99974 14.0681L3.76953 7.83789' fill='white' /%3e %3c/svg%3e">
+                                    </div>
+                                </div>
+                                <div class="filter__f2__range" id="filter__price__range__1">
+                                    <form class="filter__by__price">
+                                        <div><input placeholder="Min" class="input_price" type="number" value=""></div>
+                                        &nbsp;-&nbsp;
+                                        <div><input placeholder="Max" class="input_price" type="number" value=""></div>
+                                        <!-- <button class="search__with__range" type="submit"></button> -->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__header">
+                    <div class="section__header__left" id="collection_detail_information">
+                        <div class="info__header__title">
+                            <span id="collection_item_value">_</span>
+                            <span>Items</span>
+                        </div>
+                        <div class="info__header__title">
+                            <span id="collection_holder">_</span>
+                            <span>Owners</span>
+                        </div>
+                        <div class="info__header__title">
+                            <span id="collection_volume">_</span>
+                            <span>TotalVolume</span>
+                        </div>
+                        <div class="info__header__title">
+                            <span id="collection_floor_price">_</span>
+                            <span>FloorPrice</span>
+                        </div>
+                    </div>
+                    <div class="section__header__right">
+                        <div class="section__header__right__1">
+                            <div class="right__1__detail">
+                                <select class="detail__sort__by" id="select">
+                                    <option selected disabled hidden>Sort By</option>
+                                    <option value="Default">Default</option>
+                                    <option value="LowToHigh">Cheapest Item</option>
+                                    <option value="HighToLow">Most Expensive</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="market__nft" id="list_nft">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/file.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/sort.js"></script>
+    <script src="/assets/js/filter.js"></script>
+</body>
+
+</html>
